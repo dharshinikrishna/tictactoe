@@ -58,6 +58,3 @@ while True:
         print_board()
         print("O wins! Congratulations!")
         break
-    elif is_draw():
-        print("It's a draw!")
-        break
