@@ -50,9 +50,6 @@ while True:
     if is_victory("X"):
         print("X wins! Congratulations!")
         break
-    elif is_draw():
-        print("It's a draw!")
-        break
     player_move("O")
     if is_victory("O"):
         print_board()
